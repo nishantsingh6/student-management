@@ -14,7 +14,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://student-management-gamma-drab.vercel.app/"
+      "https://student-management-gamma-drab.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
